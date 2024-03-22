@@ -286,3 +286,41 @@ h2 {
     color: #fff;
     font-weight: 300;
 }
+/* Info CSS */
+.info-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-1 .detail-box {
+    text-align: right;
+    border: 2px solid #F12C34;
+    padding: 20px 20px 20px 5px;
+}
+.detail-2 .detail-box {
+    border: 2px solid #F12C34;
+    padding: 20px;
+}
+.detail-1 .detail-box-2{
+    margin-top: 29%;
+}
+.detail-2 .detail-box-2{
+    margin: 29% 0;
+}
+.vertical-line {
+    width: 6px;
+    background-color: #F12C34;
+    margin: 0 50px;
+    position: relative;
+}
+.circ-1 {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #F12C34;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    transform: translate(-3px, 74px);
+}
