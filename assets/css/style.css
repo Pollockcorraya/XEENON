@@ -225,6 +225,7 @@ h2 {
 .project-items {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 3%;
 }
 .project-items .img {
     width: 33.3%;
