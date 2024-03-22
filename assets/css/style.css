@@ -27,6 +27,9 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
+.heading p {
+    margin-top: 10px;
+}
 .line {
     width: 10%;
     margin: 10px auto;
@@ -123,7 +126,7 @@ h2 {
     padding: 10px 20px;
     margin-top: 20px;
 }
-.about, .service {
+.about, .service, .project, .statistic, .info {
     width: 80%;
     margin: 0 auto;
 }
@@ -217,11 +220,7 @@ h2 {
     padding: 6px;
     border-radius: 5px;
 }
-.project {
-    width: 80%;
-    margin: 0 auto
-    ;
-}
+/* Project CSS */
 .project-items {
     display: flex;
     flex-wrap: wrap;
@@ -260,4 +259,30 @@ h2 {
     opacity: 1;
     cursor: pointer;
     
+}
+/* Experience CSS */
+#statistic {
+    background-color: #333333;
+}
+.statistic h2, .statistic p {
+    color: #fff;
+}
+.statistic-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6%;
+}
+.statistic-item {
+    text-align: center;
+}
+.statistic-item img {
+    width: 35px;
+    color: #fff;
+    background-color: #F12C34;
+    padding: 10px;
+}
+.statistic-item h5 {
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 300;
 }
