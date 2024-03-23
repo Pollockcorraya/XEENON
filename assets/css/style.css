@@ -290,8 +290,13 @@ h2 {
 .info-details {
     display: flex;
     justify-content: space-between;
+    margin-top: 5%;
 }
+.info-details h5 {
+    color:#d1697e;
 
+    font-weight: 500;
+}
 .detail-1 .detail-box {
     text-align: right;
     border: 2px solid #F12C34;
@@ -308,7 +313,7 @@ h2 {
     margin: 29% 0;
 }
 .vertical-line {
-    width: 6px;
+    width: 5px;
     background-color: #F12C34;
     margin: 0 50px;
     position: relative;
@@ -320,7 +325,40 @@ h2 {
     height: 10px;
     background-color: #F12C34;
     border-radius: 50%;
-    top: 0;
+    top: 13%;
     left: 0;
-    transform: translate(-3px, 74px);
+    transform: translate(-4px, 0);
+}
+.circ-2 {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #F12C34;
+    border-radius: 50%;
+    top: 36%;
+    left: 0;
+    transform: translate(-4px, 0);
+}
+.circ-3 {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #F12C34;
+    border-radius: 50%;
+    bottom: 36%;
+    left: 0;
+    transform: translate(-4px, 0);
+}
+.circ-4 {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #F12C34;
+    border-radius: 50%;
+    bottom: 13%;
+    left: 0;
+    transform: translate(-4px, 0);
 }
