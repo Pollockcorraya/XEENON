@@ -126,7 +126,7 @@ h2 {
     padding: 10px 20px;
     margin-top: 20px;
 }
-.about, .service, .project, .statistic, .info {
+.about, .service, .project, .statistic, .info, .testimonial {
     width: 80%;
     margin: 0 auto;
 }
@@ -360,5 +360,53 @@ h2 {
     border-radius: 50%;
     bottom: 13%;
     left: 0;
-    transform: translate(-4px, 0);
+    transform: translate
+    (-4px, 0);
+}
+/* Testimonial CSS */
+#testimonial {
+    background-color: #333333;
+}
+.testimonial .heading {
+    color: #fff;
+}
+.testi-slide {
+    margin-top: 3%;
+    text-align: center;
+    padding: 20px;
+}
+.testi-slide img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+}
+.testi-slide p {
+    padding: 2% 14%;
+    color: #fff;
+}
+.testi-slide h4, h6  {
+    text-transform: capitalize;
+    color: #fff;
+}
+.slick-dots li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 6px;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.slick-dots {
+    text-align: center;
+    padding: 0;
+}
+.slick-dots button {
+    display: none;
+}
+.slick-dots .slick-active {
+    background-color: #d1697e;
 }
