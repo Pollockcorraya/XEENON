@@ -126,7 +126,7 @@ h2 {
     padding: 10px 20px;
     margin-top: 20px;
 }
-.about, .service, .project, .statistic, .info, .testimonial {
+.about, .service, .project, .statistic, .info, .testimonial, .price {
     width: 80%;
     margin: 0 auto;
 }
@@ -396,7 +396,7 @@ h2 {
     margin: 0 6px;
     width: 15px;
     height: 15px;
-    background-color: red;
+    background-color: #F12C34;
     border-radius: 50%;
 }
 
@@ -409,4 +409,43 @@ h2 {
 }
 .slick-dots .slick-active {
     background-color: #d1697e;
+}
+#price {
+    background-color: #F6F6F6;
+}
+.price-cards {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between
+    ;
+}
+.price-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 35px 25px;
+}
+.price-card h4 {
+    text-transform: uppercase;
+}
+
+.price-card ul {
+    list-style: none;
+}
+
+.price-card ul li {
+    text-transform: capitalize;
+    margin: 10px 0;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 9px 55px;
+}
+.card-button {
+    margin-top: 50px;
+}
+
+.card-button a {
+    text-decoration: none;
+    background-color: #F12C34;
+    padding: 7px 26px;
+    text-transform: uppercase;
+    color: #F1F1F1;
 }
